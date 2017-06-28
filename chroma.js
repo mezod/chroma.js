@@ -55,9 +55,11 @@ var _guess_formats = [];
 var _guess_formats_sorted = false;
 
 var Color = function Color() {
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+
     this._rgb = null;
 
-    var args = [].slice.call(arguments);
     // last argument could be the mode
     var mode = args[args.length-1];
 

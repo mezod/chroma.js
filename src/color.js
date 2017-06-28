@@ -5,10 +5,9 @@ var _guess_formats_sorted = false;
 
 export class Color {
 
-    constructor() {
+    constructor(...args) {
         this._rgb = null;
 
-        var args = [].slice.call(arguments);
         // last argument could be the mode
         var mode = args[args.length-1];
 
