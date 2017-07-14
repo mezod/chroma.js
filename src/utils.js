@@ -38,3 +38,5 @@ export var type = function(obj) {
     strType = Object.prototype.toString.call(obj);
     return classToType[strType] || "object";
 };
+
+export var round = Math.round;
