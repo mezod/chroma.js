@@ -27,7 +27,7 @@
     "url": "git://github.com/gka/chroma.js.git"
   },
   "scripts": {
-    "build": "rollup -c && uglifyjs chroma.js --comments -c -m -o chroma.min.js",
+    "build": "node rollup.node && rollup -c && uglifyjs chroma.js --comments -c -m -o chroma.min.js",
     "dev": "rollup -c -w",
     "test": "./node_modules/vows/bin/vows --dot-matrix"
   },
