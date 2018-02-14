@@ -246,7 +246,7 @@ chroma.deltaE('#e0e0ee', '#e0eee0');
 
 ### chroma.brewer
 
-chroma.brewer is an map of ColorBrewer scales that are included in chroma.js for convenience. chroma.scale uses the colors to construct.
+chroma.brewer is a map of ColorBrewer scales that are included in chroma.js for convenience. chroma.scale uses the colors to construct.
 
 ```js
 chroma.brewer.OrRd
