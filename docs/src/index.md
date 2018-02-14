@@ -689,7 +689,7 @@ If you want to return `chroma` instances just pass *null* as `format`.
 ### scale.classes
 #### (numOrArray)
 
-If you want the scale function to return a distinct set of colors instead of a continuous gradient, you can use `scale.classes`. If you pass a number the scale will broken into equi-distant classes:
+If you want the scale function to return a distinct set of colors instead of a continuous gradient, you can use `scale.classes`. If you pass a number the scale will be broken into equi-distant classes:
 
 ```js
 // continuous
