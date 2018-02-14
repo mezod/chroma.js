@@ -34,7 +34,7 @@ chroma.js has a lot more to offer, but that's the gist of it.
 ### chroma
 #### (*color*)
 
-The first step is to get your color into chroma.js. That's what the generic constructor ``chroma()`` does. The function is trying to guess the color format for you. For instances, it will recognized any named color from the W3CX11 specification:
+The first step is to get your color into chroma.js. That's what the generic constructor ``chroma()`` does. The function is trying to guess the color format for you. For instances, it will recognize any named color from the W3CX11 specification:
 
 ```js
 chroma('hotpink')
